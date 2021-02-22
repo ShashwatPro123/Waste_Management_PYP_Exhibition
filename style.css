@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+    30% {
+        background-color: #66bf39
+    }
+    60% {
+        background-color: #eb670f
+    }
+    90% {
+        background-color: #f35
+    }
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    font-family: 'Sofia', sans-serif;
+}
+
+p {
+    font-family: 'Akaya Kandaka', cursive;
+    font-size: 20px;
+}
+.Header1{
+    color: blue;
+}
